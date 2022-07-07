@@ -1,0 +1,10 @@
+﻿int a = 9;
+int b = 7;
+int c = 2;
+int d = 1;
+int max = a;
+if(max<b) max=b;
+if(max<c) max=c;
+if(max<d) max=d;
+Console.Write("Максимальный вес гири = ");
+Console.WriteLine(max);
